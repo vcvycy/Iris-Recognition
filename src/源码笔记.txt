@@ -1,0 +1,100 @@
+一、OsiManager(读取配置/处理所有图片/保存中间图片)
+   这个文件在需要改动较多,因为我们不需要一次性处理很多图片，中间图片也不一定需要保存。
+   Attribute:
+   (1) 配置项保存位置(key->value)
+	      value类型[bool]: 保存在mMapBool，可取值为"yes/no","true/false","1/0","on/off","y/n"(见OsiStringUtils.h)
+        value类型[int] : 保存在mMapInt
+			  value类型[String]:保存在mMapString
+   (2) 中间图片保存路径，初始文件路径
+	      vector<string> mListOfImages : 保存原始图片的文件名
+	      mInputDirOriginalImages      : 以上图片的目录
+	      std::string mOutputDirSegmentedImages ;
+        std::string mOutputDirParameters ;
+        std::string mOutputDirMasks ;
+        std::string mOutputDirNormalizedImages ;
+        std::string mOutputDirNormalizedMasks ;
+        std::string mOutputDirIrisCodes ;
+        std::string mOutputFileMatchingScores ;
+   (3)  中间图片后缀
+   (4)  其他一些配置：Iris/Pupil 大小限制
+   
+   Method:	 
+   (1) void processOneEye ( const string & rFileName , OsiEye & rEye )  : 处理虹膜图片fileName
+       参数：原始图片路径，一个OsiEye用于处理此图片
+       此函数做的操作：
+         --如果需要，执行segmentation+保存segmentation后的图片
+         --载入Gabor/Application参数
+         --如果需要，执行normalization操作
+         --如果需要，执行encode操作
+         --保存轮廓线
+         --保存MASK/NormalizedImage(从外部载入或者自身计算的均会保存)
+         --保存IrisCode
+   (2)  void run ( )
+        无参数。
+        此函数作用：读取配置文件，处理所有文件
+	 修改:
+				添加成员 : vector<int> mAppPnts_x,mAppPnts_y; 分别记录Application Points的x,y坐标
+        添加函数 : extractFeature(string & filename);
+二、OsiProcessings(核心算法底层实现,只包含函数)
+	 Attribute(无，所有数据均以参数形式传入)
+	 Method:
+	  (1)void segment(...)
+	    参数[in] : 原始图片、虹膜(瞳孔)大小区间
+			参数[out]: 原始图片Mask，虹膜(瞳孔)轮廓点
+    (2)void normalize(...) 
+      #OSIRIS 4.0的方法
+	    参数[in] : 原始图片，虹膜(瞳孔)拟合圆
+			参数[out]: normalize后的图片pDst
+    (3)void normalizeFromContour(...) 
+	    #Osiris 4.1的改进
+	    参数[in] : 原始图片，虹膜(瞳孔)轮廓点
+			参数[out]: normalize后的图片pDst
+		(4)  void encode ( const IplImage * pSrc , IplImage * pDst , const std::vector<CvMat*> & rFilters ) ;
+		(5)  float match ( const IplImage * image1 , const IplImage * image2 , const IplImage * mask );	  
+      参数：2个iris code 图片，mask(size=(512,64*6)=(512,384))
+	    返回：matching score
+			关于特征点个数：当mask为空时，一共有256*6=1536个特征点。特征点取值为255，非特征点取值为0
+三、OsiEye(核心算法高层封装)
+   算法核心代码：读入图片(原始图片、Mask等)，对图片的segmentation、normalization、match操作
+	 Attribute(重要部分):
+	   (1) 
+	       #图片
+	       Original  Image: mpOriginalImage
+         Segmented Image: mpSegmentedImage  #大小与原始图一直
+         NormalizedImage: mpNormalizedImage #对虹膜Normalize后的图片，固定大小
+
+         #以下为MASK，可由外部载入 
+				 原始图片Mask   : mpMask         
+         NormalizedMask : mpNormalizedMask  #对mpMask Normalized处理后形成的MASK
+         
+         #虹膜编码IrisCode
+				 mpIrisCode       #以二值图像保存
+
+   Method(重要部分):
+        #Segmentation
+		     void segment ( int minIrisDiameter , int minPupilDiameter , int maxIrisDiameter , int maxPupilDiameter )
+        #Normalization
+	       void normalize(...)
+	       参数: Normalize后图片width/height
+         Osiris 4.0的实现被注释了。(见OsiEye.cpp line 351,362)
+        #Encoding
+	       void encode ( const std::vector<CvMat*> & rGaborFilters ) ;
+				 参数: Garbor滤波器
+				 说明: 对mpNormalizedImage进行encode,生成mpIrisCode
+				#Matching
+				  float OsiEye::match ( OsiEye & rEye , const CvMat * pApplicationPoints )
+	        参数:另一个虹膜，Application Points.
+
+	修改：添加(特征值提取和保存)
+	      string mFeature;
+	      void extractFeature(vector<int>& appPnts_x,vector<int>& appPnts_y,int filterNum=6);
+
+四、添加feature 提取(无视normalizedMask)
+	  (1) OsiEye
+	      extractFeature(std::vector<int>& appPnts_x,std::vector<int>& appPnts_y,int nFilterNum,int shiftedPixels,std::string& feature);
+		(2) OsiManager 
+		    添加mAppPnt_x,mAppPnt_y保存Application Points,
+				在processOneEye中调用extractFeature
+				添加int extractFeatrue(std::string& filename,std::string& feature); //成功返回0，失败返回其他值
+		(3) 问题
+		    match过程中，取消了normalized mask ，取消了shift[-10,10]，导致score变大。

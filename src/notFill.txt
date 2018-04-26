@@ -1,0 +1,331 @@
+====配置项=====
+  [*]数据库中保存 109 条信息
+  [*]匹配阙值为 0.380000
+===============
+
+=============准确率测试==============
+[*]图片../img/first/001_1_1.bmp插入成功,id 174
+[*]图片../img/first/002_1_1.bmp插入成功,id 175
+[*]图片../img/first/003_1_1.bmp插入成功,id 176
+[*]图片../img/first/004_1_1.bmp插入成功,id 177
+[*]图片../img/first/005_1_1.bmp插入成功,id 178
+[*]图片../img/first/006_1_1.bmp插入成功,id 179
+[*]图片../img/first/007_1_1.bmp插入成功,id 180
+[*]图片../img/first/008_1_1.bmp插入成功,id 181
+[*]图片../img/first/009_1_1.bmp插入成功,id 182
+[*]图片../img/first/010_1_1.bmp插入成功,id 183
+[*]图片../img/first/011_1_1.bmp插入成功,id 184
+[*]图片../img/first/012_1_1.bmp插入成功,id 185
+[*]图片../img/first/013_1_1.bmp插入成功,id 186
+[*]图片../img/first/014_1_1.bmp插入成功,id 187
+[*]图片../img/first/015_1_1.bmp插入成功,id 188
+[*]图片../img/first/016_1_1.bmp插入成功,id 189
+[*]图片../img/first/017_1_1.bmp插入成功,id 190
+[*]图片../img/first/018_1_1.bmp插入成功,id 191
+[*]图片../img/first/019_1_1.bmp插入成功,id 192
+[*]图片../img/first/020_1_1.bmp插入成功,id 193
+[*]图片../img/first/021_1_1.bmp插入成功,id 194
+[*]图片../img/first/022_1_1.bmp插入成功,id 195
+[*]图片../img/first/023_1_1.bmp插入成功,id 196
+[*]图片../img/first/024_1_1.bmp插入成功,id 197
+[*]图片../img/first/025_1_1.bmp插入成功,id 198
+[*]图片../img/first/026_1_1.bmp插入成功,id 199
+[*]图片../img/first/027_1_1.bmp插入成功,id 200
+[*]图片../img/first/028_1_1.bmp插入成功,id 201
+[*]图片../img/first/029_1_1.bmp插入成功,id 202
+[*]图片../img/first/030_1_1.bmp插入成功,id 203
+[*]图片../img/first/031_1_1.bmp插入成功,id 204
+[*]图片../img/first/032_1_1.bmp插入成功,id 205
+[*]图片../img/first/033_1_1.bmp插入成功,id 206
+[*]图片../img/first/034_1_1.bmp插入成功,id 207
+[*]图片../img/first/035_1_1.bmp插入成功,id 208
+[*]图片../img/first/036_1_1.bmp插入成功,id 209
+[*]图片../img/first/037_1_1.bmp插入成功,id 210
+[*]图片../img/first/038_1_1.bmp插入成功,id 211
+[*]图片../img/first/039_1_1.bmp插入成功,id 212
+[*]图片../img/first/040_1_1.bmp插入成功,id 213
+[*]图片../img/first/041_1_1.bmp插入成功,id 214
+[*]图片../img/first/042_1_1.bmp插入成功,id 215
+[*]图片../img/first/043_1_1.bmp插入成功,id 216
+[*]图片../img/first/044_1_1.bmp插入成功,id 217
+[*]图片../img/first/045_1_1.bmp插入成功,id 218
+[*]图片../img/first/046_1_1.bmp插入成功,id 219
+[*]图片../img/first/047_1_1.bmp插入成功,id 220
+[*]图片../img/first/048_1_1.bmp插入成功,id 221
+[*]图片../img/first/049_1_1.bmp插入成功,id 222
+[*]图片../img/first/050_1_1.bmp插入成功,id 223
+[*]图片../img/first/051_1_1.bmp插入成功,id 224
+[*]图片../img/first/052_1_1.bmp插入成功,id 225
+[*]图片../img/first/053_1_1.bmp插入成功,id 226
+[*]图片../img/first/054_1_1.bmp插入成功,id 227
+[*]图片../img/first/055_1_1.bmp插入成功,id 228
+[*]图片../img/first/056_1_1.bmp插入成功,id 229
+[*]图片../img/first/057_1_1.bmp插入成功,id 230
+[*]图片../img/first/058_1_1.bmp插入成功,id 231
+[*]图片../img/first/059_1_1.bmp插入成功,id 232
+[*]图片../img/first/060_1_1.bmp插入成功,id 233
+[*]图片../img/first/061_1_1.bmp插入成功,id 234
+[*]图片../img/first/062_1_1.bmp插入成功,id 235
+[*]图片../img/first/063_1_1.bmp插入成功,id 236
+[*]图片../img/first/064_1_1.bmp插入成功,id 237
+[*]图片../img/first/065_1_1.bmp插入成功,id 238
+[*]图片../img/first/066_1_1.bmp插入成功,id 239
+[*]图片../img/first/067_1_1.bmp插入成功,id 240
+[*]图片../img/first/068_1_1.bmp插入成功,id 241
+[*]图片../img/first/069_1_1.bmp插入成功,id 242
+[*]图片../img/first/070_1_1.bmp插入成功,id 243
+[*]图片../img/first/071_1_1.bmp插入成功,id 244
+[*]图片../img/first/072_1_1.bmp插入成功,id 245
+[*]图片../img/first/073_1_1.bmp插入成功,id 246
+[*]图片../img/first/074_1_1.bmp插入成功,id 247
+[*]图片../img/first/075_1_1.bmp插入成功,id 248
+[*]图片../img/first/076_1_1.bmp插入成功,id 249
+[*]图片../img/first/077_1_1.bmp插入成功,id 250
+[*]图片../img/first/078_1_1.bmp插入成功,id 251
+[*]图片../img/first/079_1_1.bmp插入成功,id 252
+[*]图片../img/first/080_1_1.bmp插入成功,id 253
+[*]图片../img/first/081_1_1.bmp插入成功,id 254
+[*]图片../img/first/082_1_1.bmp插入成功,id 255
+[*]图片../img/first/083_1_1.bmp插入成功,id 256
+[*]图片../img/first/084_1_1.bmp插入成功,id 257
+[*]图片../img/first/085_1_1.bmp插入成功,id 258
+[*]图片../img/first/086_1_1.bmp插入成功,id 259
+[*]图片../img/first/087_1_1.bmp插入成功,id 260
+[*]图片../img/first/088_1_1.bmp插入成功,id 261
+[*]图片../img/first/089_1_1.bmp插入成功,id 262
+[*]图片../img/first/090_1_1.bmp插入成功,id 263
+[*]图片../img/first/091_1_1.bmp插入成功,id 264
+[*]图片../img/first/092_1_1.bmp插入成功,id 265
+[*]图片../img/first/093_1_1.bmp插入成功,id 266
+[*]图片../img/first/094_1_1.bmp插入成功,id 267
+[*]图片../img/first/095_1_1.bmp插入成功,id 268
+[*]图片../img/first/096_1_1.bmp插入成功,id 269
+[*]图片../img/first/097_1_1.bmp插入成功,id 270
+[*]图片../img/first/098_1_1.bmp插入成功,id 271
+[*]图片../img/first/099_1_1.bmp插入成功,id 272
+[*]图片../img/first/100_1_1.bmp插入成功,id 273
+[*]图片../img/first/101_1_1.bmp插入成功,id 274
+[*]图片../img/first/102_1_1.bmp插入成功,id 275
+[*]图片../img/first/103_1_1.bmp插入成功,id 276
+[*]图片../img/first/104_1_1.bmp插入成功,id 277
+[*]图片../img/first/105_1_1.bmp插入成功,id 278
+[*]图片../img/first/106_1_1.bmp插入成功,id 279
+[*]图片../img/first/107_1_1.bmp插入成功,id 280
+[*]图片../img/first/108_1_1.bmp插入成功,id 281
+query ../img/second/001_1_2.bmp
+[*]匹配成功1 -> 174 sco=0.257161
+query ../img/second/002_1_2.bmp
+[*]匹配成功2 -> 175 sco=0.288411
+query ../img/second/003_1_2.bmp
+[*]匹配成功3 -> 176 sco=0.260417
+query ../img/second/004_1_2.bmp
+[*]匹配成功4 -> 177 sco=0.251302
+query ../img/second/005_1_2.bmp
+[*]匹配成功5 -> 178 sco=0.335286
+query ../img/second/006_1_2.bmp
+[*]匹配成功6 -> 179 sco=0.271484
+query ../img/second/007_1_2.bmp
+[*]匹配成功7 -> 180 sco=0.268880
+query ../img/second/008_1_2.bmp
+[*]匹配成功8 -> 181 sco=0.311198
+query ../img/second/009_1_2.bmp
+[*]匹配成功9 -> 182 sco=0.332682
+query ../img/second/010_1_2.bmp
+[*]匹配成功10 -> 183 sco=0.218099
+query ../img/second/011_1_2.bmp
+[*]匹配成功11 -> 184 sco=0.293620
+query ../img/second/012_1_2.bmp
+[*]匹配成功12 -> 185 sco=0.278646
+query ../img/second/013_1_2.bmp
+[*]匹配成功13 -> 186 sco=0.315104
+query ../img/second/014_1_2.bmp
+[*]匹配成功14 -> 187 sco=0.233073
+query ../img/second/015_1_2.bmp
+[*]匹配成功15 -> 188 sco=0.352214
+query ../img/second/016_1_2.bmp
+[*]匹配成功16 -> 189 sco=0.295573
+query ../img/second/017_1_2.bmp
+[*]匹配成功17 -> 190 sco=0.185547
+query ../img/second/018_1_2.bmp
+[*]匹配成功18 -> 191 sco=0.322917
+query ../img/second/019_1_2.bmp
+[*]faile19 -> 188 sco=0.417318
+query ../img/second/020_1_2.bmp
+[*]匹配成功20 -> 193 sco=0.340495
+query ../img/second/021_1_2.bmp
+[*]匹配成功21 -> 194 sco=0.300781
+query ../img/second/022_1_2.bmp
+[*]匹配成功22 -> 195 sco=0.291667
+query ../img/second/023_1_2.bmp
+[*]匹配成功23 -> 196 sco=0.298828
+query ../img/second/024_1_2.bmp
+[*]匹配成功24 -> 197 sco=0.223958
+query ../img/second/025_1_2.bmp
+[*]匹配成功25 -> 198 sco=0.276693
+query ../img/second/026_1_2.bmp
+[*]匹配成功26 -> 199 sco=0.244792
+query ../img/second/027_1_2.bmp
+[*]匹配成功27 -> 200 sco=0.243490
+query ../img/second/028_1_2.bmp
+[*]匹配成功28 -> 201 sco=0.237630
+query ../img/second/029_1_2.bmp
+[*]匹配成功29 -> 202 sco=0.251953
+query ../img/second/030_1_2.bmp
+[*]匹配成功30 -> 203 sco=0.265625
+query ../img/second/031_1_2.bmp
+[*]匹配成功31 -> 204 sco=0.332682
+query ../img/second/032_1_2.bmp
+[*]匹配成功32 -> 205 sco=0.328776
+query ../img/second/033_1_2.bmp
+[*]匹配成功33 -> 206 sco=0.221354
+query ../img/second/034_1_2.bmp
+[*]匹配成功34 -> 207 sco=0.216146
+query ../img/second/035_1_2.bmp
+[*]匹配成功35 -> 208 sco=0.300781
+query ../img/second/036_1_2.bmp
+[*]匹配成功36 -> 209 sco=0.185547
+query ../img/second/037_1_2.bmp
+[*]匹配成功37 -> 210 sco=0.325521
+query ../img/second/038_1_2.bmp
+[*]匹配成功38 -> 211 sco=0.275391
+query ../img/second/039_1_2.bmp
+[*]匹配成功39 -> 212 sco=0.220052
+query ../img/second/040_1_2.bmp
+[*]匹配成功40 -> 213 sco=0.232422
+query ../img/second/041_1_2.bmp
+[*]匹配成功41 -> 214 sco=0.346354
+query ../img/second/042_1_2.bmp
+[*]匹配成功42 -> 215 sco=0.226562
+query ../img/second/043_1_2.bmp
+[*]匹配成功43 -> 216 sco=0.361328
+query ../img/second/044_1_2.bmp
+[*]匹配成功44 -> 217 sco=0.290365
+query ../img/second/045_1_2.bmp
+[*]匹配成功45 -> 218 sco=0.262370
+query ../img/second/046_1_2.bmp
+[*]匹配成功46 -> 219 sco=0.187500
+query ../img/second/047_1_2.bmp
+[*]匹配成功47 -> 220 sco=0.292969
+query ../img/second/048_1_2.bmp
+[*]匹配成功48 -> 221 sco=0.220703
+query ../img/second/049_1_2.bmp
+[*]匹配成功49 -> 222 sco=0.304036
+query ../img/second/050_1_2.bmp
+[*]匹配成功50 -> 223 sco=0.286458
+query ../img/second/051_1_2.bmp
+[*]匹配成功51 -> 224 sco=0.301432
+query ../img/second/052_1_2.bmp
+[*]匹配成功52 -> 225 sco=0.213542
+query ../img/second/053_1_2.bmp
+[*]匹配成功53 -> 226 sco=0.215495
+query ../img/second/054_1_2.bmp
+[*]匹配成功54 -> 227 sco=0.246745
+query ../img/second/055_1_2.bmp
+[*]匹配成功55 -> 228 sco=0.283203
+query ../img/second/056_1_2.bmp
+[*]匹配成功56 -> 229 sco=0.358073
+query ../img/second/057_1_2.bmp
+[*]匹配成功57 -> 230 sco=0.317057
+query ../img/second/058_1_2.bmp
+[*]匹配成功58 -> 231 sco=0.337891
+query ../img/second/059_1_2.bmp
+[*]匹配成功59 -> 232 sco=0.271484
+query ../img/second/060_1_2.bmp
+[*]匹配成功60 -> 233 sco=0.244792
+query ../img/second/061_1_2.bmp
+[*]匹配成功61 -> 234 sco=0.230469
+query ../img/second/062_1_2.bmp
+[*]匹配成功62 -> 235 sco=0.287109
+query ../img/second/063_1_2.bmp
+[*]匹配成功63 -> 236 sco=0.302083
+query ../img/second/064_1_2.bmp
+[*]匹配成功64 -> 237 sco=0.253906
+query ../img/second/065_1_2.bmp
+[*]匹配成功65 -> 238 sco=0.235677
+query ../img/second/066_1_2.bmp
+[*]匹配成功66 -> 239 sco=0.320964
+query ../img/second/067_1_2.bmp
+[*]匹配成功67 -> 240 sco=0.395182
+query ../img/second/068_1_2.bmp
+[*]匹配成功68 -> 241 sco=0.299479
+query ../img/second/069_1_2.bmp
+[*]匹配成功69 -> 242 sco=0.314453
+query ../img/second/070_1_2.bmp
+[*]匹配成功70 -> 243 sco=0.379557
+query ../img/second/071_1_2.bmp
+[*]匹配成功71 -> 244 sco=0.333984
+query ../img/second/072_1_2.bmp
+[*]匹配成功72 -> 245 sco=0.305339
+query ../img/second/073_1_2.bmp
+[*]匹配成功73 -> 246 sco=0.360677
+query ../img/second/074_1_2.bmp
+[*]匹配成功74 -> 247 sco=0.261719
+query ../img/second/075_1_2.bmp
+[*]匹配成功75 -> 248 sco=0.294271
+query ../img/second/076_1_2.bmp
+[*]匹配成功76 -> 249 sco=0.296224
+query ../img/second/077_1_2.bmp
+[*]匹配成功77 -> 250 sco=0.298828
+query ../img/second/078_1_2.bmp
+[*]匹配成功78 -> 251 sco=0.243490
+query ../img/second/079_1_2.bmp
+[*]匹配成功79 -> 252 sco=0.388672
+query ../img/second/080_1_2.bmp
+[*]匹配成功80 -> 253 sco=0.208984
+query ../img/second/081_1_2.bmp
+[*]匹配成功81 -> 254 sco=0.227865
+query ../img/second/082_1_2.bmp
+[*]匹配成功82 -> 255 sco=0.297526
+query ../img/second/083_1_2.bmp
+[*]匹配成功83 -> 256 sco=0.246745
+query ../img/second/084_1_2.bmp
+[*]匹配成功84 -> 257 sco=0.215495
+query ../img/second/085_1_2.bmp
+[*]匹配成功85 -> 258 sco=0.220703
+query ../img/second/086_1_2.bmp
+[*]匹配成功86 -> 259 sco=0.260417
+query ../img/second/087_1_2.bmp
+[*]匹配成功87 -> 260 sco=0.223958
+query ../img/second/088_1_2.bmp
+[*]匹配成功88 -> 261 sco=0.200521
+query ../img/second/089_1_2.bmp
+[*]匹配成功89 -> 262 sco=0.292969
+query ../img/second/090_1_2.bmp
+[*]匹配成功90 -> 263 sco=0.313802
+query ../img/second/091_1_2.bmp
+[*]匹配成功91 -> 264 sco=0.322266
+query ../img/second/092_1_2.bmp
+[*]匹配成功92 -> 265 sco=0.351562
+query ../img/second/093_1_2.bmp
+[*]匹配成功93 -> 266 sco=0.240234
+query ../img/second/094_1_2.bmp
+[*]匹配成功94 -> 267 sco=0.371094
+query ../img/second/095_1_2.bmp
+[*]匹配成功95 -> 268 sco=0.300130
+query ../img/second/096_1_2.bmp
+[*]匹配成功96 -> 269 sco=0.311198
+query ../img/second/097_1_2.bmp
+[*]匹配成功97 -> 270 sco=0.288411
+query ../img/second/098_1_2.bmp
+[*]匹配成功98 -> 271 sco=0.314453
+query ../img/second/099_1_2.bmp
+[*]匹配成功99 -> 272 sco=0.251302
+query ../img/second/100_1_2.bmp
+[*]匹配成功100 -> 273 sco=0.304036
+query ../img/second/101_1_2.bmp
+[*]匹配成功101 -> 274 sco=0.316406
+query ../img/second/102_1_2.bmp
+[*]匹配成功102 -> 275 sco=0.329427
+query ../img/second/103_1_2.bmp
+[*]匹配成功103 -> 276 sco=0.295573
+query ../img/second/104_1_2.bmp
+[*]匹配成功104 -> 277 sco=0.248698
+query ../img/second/105_1_2.bmp
+[*]匹配成功105 -> 278 sco=0.277344
+query ../img/second/106_1_2.bmp
+[*]匹配成功106 -> 279 sco=0.384766
+query ../img/second/107_1_2.bmp
+[*]匹配成功107 -> 280 sco=0.260417
+query ../img/second/108_1_2.bmp
+[*]匹配成功108 -> 281 sco=0.245443
+===成功率107/108===
