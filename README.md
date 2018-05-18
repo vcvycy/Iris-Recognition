@@ -5,5 +5,5 @@
 * modify/delete some code 
 
 # STRUCTURE
-![structure](structure.jpg)
+![structure](structure.png)
 * to be continue
