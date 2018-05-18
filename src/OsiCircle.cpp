@@ -111,9 +111,9 @@ namespace osiris
         {
             u = rPoints[p].x - mx ;
             v = rPoints[p].y - my ;
-						tmp_uu=u*u;
-						tmp_uv=u*v;
-						tmp_vv=v*v;
+            tmp_uu=u*u;
+            tmp_uv=u*v;
+            tmp_vv=v*v;
             suu += tmp_uu ;
             svv += tmp_vv;
             suv += tmp_uv ;
@@ -130,7 +130,7 @@ namespace osiris
         // Circle parameters
         setCenter(cvPoint(uc+mx,vc+my)) ;
         setRadius((int)(sqrt(uc*uc+vc*vc+(suu+svv)/rPoints.size()))) ;
-		}
+    }
 
 
 

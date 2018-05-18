@@ -132,7 +132,7 @@ public:
 };
 KDTREE01::KDTREE01(std::map<int,std::string>& mData,int nDims){
   //m_nDim=(*mData.begin()).second.length();
-	m_nDim=nDims;
+  m_nDim=nDims;
   initDimMap(mData);
 
   m_pRoot=new KD_NODE();
@@ -182,10 +182,10 @@ int KDTREE01::initDimMap(std::map<int,std::string>& mData){
 }
 int KDTREE01::ins(std::string& sIrisCode,int nId){
   if (sIrisCode.length()!=m_nDim){
-	  printf("[!]iris code [id%d] 长度不符合要求\n",nId);
-		return -1;
-	}
-	//char *pIrisCode=(char*)sIrisCode.c_str();
+    printf("[!]iris code [id%d] 长度不符合要求\n",nId);
+    return -1;
+  }
+  //char *pIrisCode=(char*)sIrisCode.c_str();
   transformString(sIrisCode);
   //printf("ins %s\n",m_Buf);
   return m_pRoot->ins(m_Buf,nId);

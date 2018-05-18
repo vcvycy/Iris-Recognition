@@ -67,14 +67,14 @@ int IrisDB::ins(std::string& sIrisCode){
   int id=m_DBLow->ins(pIrisCode,m_Dims);
   //插入KD树
   int rst=m_KD01->ins(sIrisCode,id);
-	if (rst!=0){       //插入重复图片
-		m_DBLow->del(id);
-		return rst;
-	}else{
+  if (rst!=0){       //插入重复图片
+    m_DBLow->del(id);
+    return rst;
+  }else{
    //维护本地副本
    m_Data[id]=sIrisCode;
    return id;
-	}
+  }
 }
 std::pair<int,int> IrisDB::query(std::string& sIrisCode){
   std::pair<int,int> ret;
@@ -82,7 +82,7 @@ std::pair<int,int> IrisDB::query(std::string& sIrisCode){
     ret.first=-1;
     return ret;
   }
-	checkStrValid(sIrisCode);
+  checkStrValid(sIrisCode);
   //在KD树中查询
   return m_KD01->query(sIrisCode);
 }
@@ -90,8 +90,8 @@ int IrisDB::del(int nId){
   if (m_Data.count(nId)==0){
     return 1;
   }
-	//从数据库中删除
-	m_DBLow->del(nId);
+  //从数据库中删除
+  m_DBLow->del(nId);
   //从KD树中删除
   return m_KD01->del(m_Data[nId]);
 }
