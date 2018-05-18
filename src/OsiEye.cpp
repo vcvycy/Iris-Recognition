@@ -469,9 +469,6 @@ namespace osiris
 				if (mpOriginalImage==NULL) {printf("载入失败");return -1;}
 				//segment(执行后，边界参数已经在类中，不需要保存再读取)
 				segment(minIrisDiameter,minPupilDiameter,maxIrisDiameter,maxPupilDiameter);
-#ifdef DEBUG
-				cvSaveImage("1.jpg",mpSegmentedImage);
-#endif
 				//normalize
 				normalize(rWidthOfNormalizedIris,rHeightOfNormalizedIris);
 			  //encode

@@ -8,8 +8,8 @@
 
 #ifndef _GG_
 #define _GG_
-#define UseFillWhiteHole
-//#define DEBUG
+//#define UseFillWhiteHole
+#define DEBUG
 //defination
 inline long long g_gettime();   //读取毫秒时间
 static long long g_time_start=-1;
