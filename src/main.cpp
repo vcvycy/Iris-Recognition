@@ -42,22 +42,5 @@ int main (int argc, char * argv[]){
                   break;
       }
     }
-    /*
-    int id=4;
-    if (mgr.del(4)==0)printf("[*]删除成功ID[%d]\n",id);else printf("[!]删除失败ID[%d]\n",id);
-    std::string file="../img/040_2_1.bmp";
-    id=mgr.ins(file);
-    if (id>=0)
-      printf("[*]虹膜图片已编码并存入数据库,id :%d\n",id);
-    else
-      printf("[!]图片%s处理失败\n",file.c_str());
-
-    std::string file2="../img/040_2_2.bmp";
-    id=mgr.query(file2);
-    if (id!=-1)
-      printf("[*]找到匹配虹膜,id为%d\n",id);
-    else
-      printf("[!]数据库中找不到匹配的虹膜!");
-    */
     return 0;
 }
