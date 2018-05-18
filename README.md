@@ -21,3 +21,8 @@
 * insert 1.jpg   //insert a iris image into database,and reture a ID which is discriminantive.
 * query  2.jpg   //find the nearest iris image from sqlite3 database.
 * delete [id]          //
+# paper
+* High confidence visual recognition of persons by a test of statistical Independency
+* OSIRIS An open source iris recognition software
+* The Viterbi Algorithm at Different Resolutions for Enhanced Iris Segmentation
+* Documentation_OSIRIS_v4.1
