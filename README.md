@@ -18,9 +18,9 @@
 * make
 * ./osiris
 # after running ./osiris you can do the following operations(the implementation is in ./src main.cpp)
-* insert 1.jpg   //insert a iris image into database,and reture a ID which is discriminantive.
+* insert 1.jpg   //insert a iris image into database,and reture a ID which is 'auto_increment';
 * query  2.jpg   //find the nearest iris image from sqlite3 database.
-* delete [id]          //
+* delete [id]          //delete 
 # paper
 * High confidence visual recognition of persons by a test of statistical Independency
 * OSIRIS An open source iris recognition software
