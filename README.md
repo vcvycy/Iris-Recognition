@@ -1,6 +1,6 @@
 # Iris Recognition
-  This project is fork from osiris v4.1.
-  Here is my modification:
+  This project is forked from osiris v4.1.
+  Here is my job:
 * use sqlite3 + kd-tree to speed up query
 * modify/delete some code to speed up iris detection
 * achieve real-time iris insert/query/delete operation in a normal computer.
